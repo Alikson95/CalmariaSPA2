@@ -1,0 +1,40 @@
+.boas-vindas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--gradiente);
+    row-gap: 2rem;
+}
+
+.boas-vindas .boas-vindas__apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.boas-vindas .boas-vindas__apresentacao .boas-vindas__titulo {
+    color: var(--cor-do-titulo-boas-vindas);
+    font-size: 1.93rem;
+    font-family: var(--fonte-Krona);
+    font-weight: 400;
+    text-align: center;
+}
+
+.boas-vindas .boas-vindas__apresentacao .boas-vindas__titulo .boas-vindas__destaque {
+    color: var(--roxo-vibrante);
+}
+
+.boas-vindas .boas-vindas__apresentacao .boas-vindas__botao {
+    text-decoration: none;
+    background-color: var(--roxo-escuro);
+    font-family: var(--fonte-MontSerrat);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--branco);
+    border: 1px solid var(--roxo-escuro);
+    border-radius: 2.5rem;
+    padding: 1rem 1.5rem;
+    width: 90%;
+}
