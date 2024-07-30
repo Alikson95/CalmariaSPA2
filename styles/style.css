@@ -28,7 +28,7 @@ button {
 }
 
 body {
-  background-color: var(--verde-claro);
+  background: var(--gradiente);
 }
 
 .container {

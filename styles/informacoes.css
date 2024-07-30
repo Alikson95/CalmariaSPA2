@@ -1,0 +1,33 @@
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.informacoes .informacoes__imagem {
+    width: 332px;
+    height: 330;
+    border-radius: 2rem;
+}
+
+.informacoes .informacoes__apresentacao {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.informacoes .informacoes__apresentacao .informacoes__apresentacao--titulo {
+    font-family: var(--fonte-Krona);
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: var(--roxo-vibrante);
+    line-height: 2.4rem;
+}
+
+.informacoes .informacoes__apresentacao .informacoes__apresentacao--texto {
+    font-family: var(--fonte-MontSerrat);
+    font-size: .94rem;
+    font-weight: 400;
+    color: var(--lilas-escuro);
+    line-height: 1.4rem;
+}
