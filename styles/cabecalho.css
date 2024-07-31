@@ -17,7 +17,7 @@
 
 .cabecalho .cabecalho__nav .cabecalho__nav--lista {
     display: flex;
-    column-gap: 1rem;
+    column-gap: 2rem;
 }
 
 .cabecalho .cabecalho__nav .cabecalho__nav--lista .cabecalho__lista-item {
@@ -28,4 +28,8 @@
 
 .cabecalho .cabecalho__nav .cabecalho__nav--lista .cabecalho__lista-item a {
     color: var(--lilas-escuro);
+}
+
+.cabecalho .cabecalho__nav .cabecalho__nav--lista .cabecalho__lista-item a:hover {
+    font-weight: 700;
 }

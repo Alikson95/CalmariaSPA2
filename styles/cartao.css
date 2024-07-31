@@ -1,0 +1,38 @@
+.servico {
+    background: var(--gradiente);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.servico .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    border: 2px solid none;
+    border-radius: 1rem;
+    background: var(--gradiente-card);
+    padding: 1rem;
+    text-align: center;
+}
+
+.cartao .cards .cards__titulo {
+    font-family: var(--fonte-Krona);
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 2.43rem;
+    color: var(--lilas-escuro);
+}
+
+.cartao .cards .cards__texto {
+    font-family: var(--fonte-MontSerrat);
+    font-weight: 400;
+    font-size: .94rem;
+    line-height: 1.4rem;
+    color: var(--lilas-escuro);
+}
+

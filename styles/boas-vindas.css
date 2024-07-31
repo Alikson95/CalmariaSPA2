@@ -38,3 +38,8 @@
     padding: 1rem 1.5rem;
     width: 90%;
 }
+
+.boas-vindas .boas-vindas__apresentacao .boas-vindas__botao:hover {
+    background-color: var(--lilas-escuro);
+    transition: .5s;
+}
