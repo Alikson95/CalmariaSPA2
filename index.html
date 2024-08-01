@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/boas-vindas.css">
     <link rel="stylesheet" href="styles/informacoes.css">
     <link rel="stylesheet" href="styles/cartao.css">
+    <link rel="stylesheet" href="styles/descontos.css">
     <title>Calmaria Spa</title>
 </head>
 
@@ -23,8 +24,8 @@
             <a><h1><img class="cabecalho__nav--logo" src="./assets/logo.png" alt="logo da calmaria spa"></h1></a>
             <span class="cabecalho__nav--line"></span>
             <ul class="cabecalho__nav--lista">
-                <li class="cabecalho__lista-item"><a href="#">Nosso Espaço</a></li>
-                <li class="cabecalho__lista-item"><a href="#">Serviços</a></li>
+                <li class="cabecalho__lista-item"><a href="#nosso-espaco">Nosso Espaço</a></li>
+                <li class="cabecalho__lista-item"><a href="#servicos">Serviços</a></li>
                 <li class="cabecalho__lista-item"><a href="#">Contato</a></li>
             </ul>
         </nav>
@@ -39,7 +40,7 @@
             <img src="assets/home-image.png" alt="Mulher recebendo massagem deitada de bruços com a cabeça de lado sobre os braços cruzados e expressão de tranquilidade.">
         </section>
 
-        <section class="container informacoes">
+        <section id="nosso-espaco" class="container informacoes">
             <img src="assets/espaco-1.png" class="informacoes__imagem" alt="Piscina coberta com uma claraboia redonda, grande e rodeada com jardinagem.">
             <div class="informacoes__apresentacao">
                 <h3 class="informacoes__apresentacao--titulo">Tecnologia e natureza no seu relaxamento</h3>
@@ -55,7 +56,7 @@
             <img src="assets/espaco-3.png" class="informacoes__imagem" alt="Ambiente da Calmaria Spa com poltrona, plantas e uma piscina.">
         </section>
 
-        <section class="container servico">
+        <section id="servicos" class="container servico">
             <div class="cards">
                 <img src="assets/icon-massagem.png" alt="Icone de massagem">
                 <h3 class="cards__titulo">Massagens</h3>
@@ -74,6 +75,19 @@
                 <img src="assets/soft-star.png" alt="soft star">
                 <p class="cards__texto">Pacotes que vão desde o "Dia revitalizante" com massagens e tratamentos faciais, até o "Dia serenidade" com banhos terapêuticos e meditação.</p>
             </div>
+        </section>
+
+        <section class="container descontos">
+            <img src="assets/mandala-esquerda.png" alt="Mandala lado esquerdo" class="descontos__imagem-mobile">
+            <div class="descontos__apresentacao">
+                <h3 class="descontos__titulo">Inscreva-se para ganhar descontos!</h3>
+                <p class="descontos__texto">Cadastre-se em nossa newsletter para receber descontos e novidades sobre nossos serviços. </p>
+                <div class="descontos__apresentacao__email">
+                    <input type="email" placeholder="Digite seu email" class="descontos__apresentacao__email-input">
+                    <button class="descontos__apresentacao__email-botao" type="submit">Inscrever</button>
+                </div>
+            </div>
+            <img src="assets/mandala-direita.png" alt="Mandala lado direito" class="descontos__imagem-mobile">
         </section>
     </main>
 
