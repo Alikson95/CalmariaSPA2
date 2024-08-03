@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/cartao.css">
     <link rel="stylesheet" href="styles/descontos.css">
     <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/rodape.css">
     <title>Calmaria Spa</title>
 </head>
 
@@ -113,12 +114,58 @@
                 <img src="assets/contato-img-3.png" class="contato__imagem" alt="Mulher em uma banheira com pétalas de rosa, com apenas mãos e pernas aparentes, segurando um livro e com uma bandeija com uvas e chá.">
             </div>
 
-            <!-- <div class="contato__formulario">
-                <h3 class="contato__formulario-titulo">Entre em contato</h3>
-                <p class="contato__formulario-texto">Reserve seu horário, tire dúvidas ou proponha sugestões, nosso canal é aberto para você!</p>
-            </div> -->
+            <div class="contato__apresentacao">
+                <h4 class="contato__apresentacao-titulo">Entre em contato</h4>
+                <p class="contato__apresentacao-texto">Reserve seu horário, tire dúvidas ou proponha sugestões, nosso canal é aberto para você!</p>
+                <form name="entrar-contato" autocomplete="off" method="get" class="contato__apresentacao__formulario">
+                    <div class="contato__apresentacao__formulario-itens">
+                        <label for="form-nome">Nome</label>
+                        <input type="text" id="form-nome" placeholder="Digite o seu nome">
+                    </div>
+
+                    <div class="contato__apresentacao__formulario-itens">
+                        <label for="form-email">Email</label>
+                        <input type="email" id="form-email" placeholder="Digite o seu email">
+                    </div>
+
+                    <div class="contato__apresentacao__formulario-itens">
+                        <label for="form-telefone">Telefone</label>
+                        <input type="number" id="form-telefone" placeholder="(XX) XXXX-XXXX">
+                    </div>
+
+                    <div class="contato__apresentacao__formulario-itens">
+                        <h5>Prefere contato por:</h5>
+
+                        <input type="radio" id="form-ligacao">
+                        <label for="form-ligacao">Ligação</label>
+
+                        <input type="radio" id="form-whatsapp">
+                        <label for="form-whatsapp">Whatsapp</label>
+                    
+                        <input type="radio" id="formulario-email">
+                        <label for="formulario-email">Email</label>
+                    </div>
+
+                    <div class="contato__apresentacao__formulario-itens">
+                        <label for="form-mensagem">Mensagem</label>
+                        <textarea placeholder="Digite a sua mensagem" id="form-mensagem"></textarea>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
+
+    <footer class="rodape">
+        <address>
+            Acesse nossas redes: <br>
+            <ul class="rodape__lista">
+                <li class="rodape__lista-itens"><img src="assets/Instragam.svg" alt="Icone do Instagram"></li>
+                <li class="rodape__lista-itens"><img src="assets/Whatsapp.svg" alt="Icone do Whatsapp"></li>
+                <li class="rodape__lista-itens"><img src="assets/Tiktok.svg" alt="Icone do TikTok"></li>
+            </ul>
+            <small>Desenvolvido po Alura. Projeto fictício sem fins comerciais.</small>
+        </address>
+    </footer>
 
 </body>
 

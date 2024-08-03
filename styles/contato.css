@@ -15,6 +15,43 @@
     width: 100%;
 }
 
+.contato .contato__apresentacao {
+    margin-top: 4rem;
+    padding: 1.5rem;
+    background: var(--gradiente);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    border: 1xp solid none;
+    border-radius: 3rem;
+}
+
+.contato .contato__apresentacao .contato__apresentacao-titulo {
+    font-family: var(--fonte-Krona);
+    font-size: 1.625rem; /* 26px */
+    font-weight: 400;
+    line-height: 2.43rem; /* 39px */
+    color: var(--roxo-vibrante);
+}
+
+.contato .contato__formulario .contato__apresentacao-texto {
+    font-family: var(--fonte-MontSerrat);
+    font-size: .94rem; /* 15px */
+    font-weight: 400;
+    line-height: 1.4rem; /* 22.5px */
+    color: var(--lilas-escuro);
+}
+
+.contato .contato__apresentacao .contato__apresentacao__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato .contato__apresentacao .contato__apresentacao__formulario .contato__apresentacao__formulario-itens {
+    display: flex;
+}
+
 @media screen and (min-width: 768px) {
     .contato .contato__imagens {
         display: grid;

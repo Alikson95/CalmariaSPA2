@@ -1,0 +1,18 @@
+.rodape {
+    background-color: var(--verde-claro);
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--fonte-MontSerrat);
+    font-style: italic;
+    font-size: .94rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: var(--lilas-escuro);
+}
+
+.rodape .rodape__lista {
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
